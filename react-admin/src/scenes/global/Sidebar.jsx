@@ -84,7 +84,7 @@ const Sidebar = () => {
                   ml="15px"
                 >
                   <Typography variant="h3" color={colors.grey[100]}>
-                    ADMINIS
+                    ADMINISTRATOR
                   </Typography>
                   <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                     <MenuOutlinedIcon />
@@ -196,28 +196,28 @@ const Sidebar = () => {
               </Typography>
               <Item
                 title="Mechanical"
-                to="/bar"
+                to="/mechanical"
                 icon={<PrecisionManufacturingOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
                 title="Electrical"
-                to="/pie"
+                to="/electrical"
                 icon={<ElectricMeterOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
                 title="Quality Inspection"
-                to="/line"
+                to="/qualityinspection"
                 icon={<FactCheckOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
               />
               <Item
                 title="Instrumentation"
-                to="/geography"
+                to="/instrumentation"
                 icon={<ScaleOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
